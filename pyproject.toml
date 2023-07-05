@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapiblog"
+version = "0.1.0"
+description = ""
+authors = ["Anna Kartasheva <annakartashevamail@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.99.1"
+sqlalchemy = "^2.0.17"
+alembic = "^1.11.1"
+python-dotenv = "^1.0.0"
+psycopg2 = "^2.9.6"
+uvicorn = "^0.22.0"
+fastapi-sqlalchemy = "^0.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
